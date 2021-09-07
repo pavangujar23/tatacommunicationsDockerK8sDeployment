@@ -1,0 +1,37 @@
+//service1 docker
+
+{
+    "KafKaPort" : "kafka:9092",
+    "Topic" :   "parking",
+    "Partition" : 0,
+    "ApplicattionPort" : ":8080"
+}
+
+// service1 local
+
+{
+    "KafKaPort" : "localhost:29092",
+    "Topic" :   "parking",
+    "Partition" : 0,
+    "ApplicattionPort" : ":8080"
+}
+
+// service2 docker 
+
+{
+    "KafKaPort" : "kafka:9092",
+    "Topic" :   "parking",
+    "Partition" : 0,
+    "ApplicattionPort" : ":9090",
+	"MongoPort"   :     "mongodb://mongo:27017"
+}
+
+// service2 local 
+
+{
+    "KafKaPort" : "localhost:29092",
+    "Topic" :   "parking",
+    "Partition" : 0,
+    "ApplicattionPort" : ":9090",
+	"MongoPort"   :     "mongodb://localhost:27017"
+}

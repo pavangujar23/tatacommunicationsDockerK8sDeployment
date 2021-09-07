@@ -1,0 +1,7 @@
+{
+    "KafKaPort" : "kafka:9092",
+    "Topic" :   "parking",
+    "Partition" : 0,
+    "ApplicattionPort" : ":9090",
+	"MongoPort"   :     "mongodb://mongo:27017"
+}
